@@ -21,6 +21,7 @@ namespace PaySlip
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+					
                 });
     }
 }
